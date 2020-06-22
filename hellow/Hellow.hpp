@@ -11,6 +11,7 @@ class Hellow
 public:
     //typedef std::function<unsigned int(const std::string&)> HashFunction;
     //static constexpr unsigned int initialBucketCount = 10;
+    int age;
 
 public:
     Hellow();

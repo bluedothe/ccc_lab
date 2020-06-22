@@ -2,13 +2,12 @@
 #include <string>
 #include "Hellow.hpp"
 
-Hellow::Hellow()
+Hellow::Hellow():age{20}
 {
-    printf("in constuct,init: %d\n",0);
+    printf("in constuct,init: %d\n",age);
 }
 
 void Hellow::printInfo()
 {
     printf("in printInfo, %d\n", 5);
 }
-
